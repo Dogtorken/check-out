@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-out</title>
+    <link rel="stylesheet" href="/check-out/checkout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="first-div">
+    <div class="wp-pusher">
+        <img class="header" src="/check-out/asset/Nav bar.png" alt="navigation bar">
+        <div class="checkout">
+            <p>Checkout</p>
+            <form action="">
+                <div >
+                    <p class="info-one">1</p>
+                    <p class="info">Your basic information</p>
+                </div>
+                    <p>
+                        <label for="firstName">First Name</label> <br>
+                            <input type="text" name="firstName" id="firstName" placeholder="Jane" class="firstName">
+                        <label class="lName" for="lastName">Last Name</label> 
+                            <input type="text" name="lastName" id="lastName" placeholder="Doe" class="lastName"> <br>
+
+                        <label class="Email" for="email">Email Address</label> <br>
+                            <input type="email" name="email" id="email" placeholder="janedoe@example.com" autocomplete="on" required class="email">
+                    </p>
+                    <div >
+                        <p class="info-one">2</p>
+                        <p class="info">Your Payment information</p>
+                    </div>
+                    <p>
+                        <label for="creditCard">Credit Card</label> <br>
+                            <input type="number" name="creditCard" id="creditCard" placeholder="Card Number &nbsp MM/YY CVC" autocomplete="on" class="creditCard" >
+                    </p>
+                
+                <div class="buy-button">
+                    <button class="buy">Buy WP Pusher</button>
+                </div>
+                <p class="help"><span class="q-mark">&#63;</span> Need any help? Don't hesitate to contact support</p>
+            </form>
+            <button class="power">Powered by <span class="stripe">Stripe</span></button>
+        </div>
+        <div class="freelancer">
+            <img class="sidebar" src="/check-out/asset/sidebar.png" alt="">
+        </div>
+    </div>
+    </div>
+    <p>
+        &copy;WP Pusher IVS.
+        <a href="https://altschoolafrica.com/terms-and-conditions">Terms of Service</a>
+    </p>
+</body>
+</html>
